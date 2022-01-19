@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: latoReg;
+    src: url(fonts/Lato-Medium.ttf);
+}
+
+@font-face {
+    font-family: lato;
+    src: url(fonts/Lato-Heavy.ttf);
+}
+
+body{
+   font-family: latoReg;
+   background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(pexels-eriks-cistovs-10002692.jpg);
+}
+
+.logo-ish{
+    color: rgb(125, 125, 231);
+    font-family: lato;
+    text-transform: uppercase;
+    margin-left:25px;
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 40px;
+}
+
+.container1{
+    height: 530px;
+    width: 518px;
+    background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(pexels-marcus-aurelius-4064696.jpg);  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    margin-left: 235px;
+}
+
+.p1{
+    color: whitesmoke;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: 90%;
+    margin-left: 20px;
+    font-family: lato;
+    word-spacing: 0.2em;
+    width: 70%;
+}
+
+.login-form{
+    height: 530px;
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    box-shadow: 0px 0px 10px black;
+    align-items: center;
+    color: whitesmoke;
+    padding-top: 30px;
+    padding: 60px;
+    margin-left: 70px;
+}
+
+.login h3{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: lato;
+}
+
+.h4{
+    font-weight: 100;
+    margin-top: 55px;
+}
+
+.h5{
+    font-size: small;
+    font-weight: 100;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+h6{
+    margin-top:20px;
+    font-weight: 10;
+}
+ 
+h7{
+    margin-top: 20px;
+}
+.google{
+    color: rgb(53, 53, 149);
+}
+
+.secondH5{
+    margin-top: 28px;
+    color: red;
+    font-weight: lighter;
+    text-transform: lowercase;
+    font-size: small;
+}
+
+.thirdH5{
+    margin-top: 25px;
+    color: red;
+    font-weight: lighter;
+    text-transform: lowercase;
+    font-size: small;
+}
+
+input{ 
+    width: 200px;
+    margin-top: 30px;
+    background-color: rgb(4, 4, 53);
+    padding: 10px;
+    font-size: 13px;
+    border-radius: 20px;
+    cursor: default ;
+    color: white;
+    border: none;
+}
+
+.btn{
+    padding: 5px 20px;
+    margin-top: 50px;
+    background: transparent;
+    border-radius: 20px;
+    border: 1px solid rgb(53, 53, 149);
+    cursor: default;
+}
+
+.btn:hover{
+    background-color: rgb(53, 53, 149);
+}
+
+a{ 
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover{
+    color: rgb(53, 53, 149);
+}

@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: latoBold;
+    src: url(fonts/Lato-Bold.ttf);
+    font-weight: bolder;
+}
+@font-face {
+    font-family: latoRegular;
+    src: url(fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: lato;
+    src: url(fonts/Lato-Heavy.ttf);
+}
+
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(pexels-eriks-cistovs-10002692.jpg);
+    color: white;
+    font-family: latoRegular;
+}
+
+.logo-ish{
+    color: rgb(125, 125, 231);
+    font-family: lato;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-left:25px;
+    font-size: 25px;
+}
+
+h1{
+    text-transform: uppercase;
+    margin-top: 20%;
+    font-size: 80;
+    word-spacing: 0.1em;
+    text-align: center;
+}
+
+.text{
+    letter-spacing: 0.1em;
+    margin-top: 15px;
+    text-align: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(53, 53, 149) ;
+} 
