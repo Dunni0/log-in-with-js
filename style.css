@@ -17,55 +17,43 @@
 body{
     background-position: center;
     font-family: latoReg;
-    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(pexels-eriks-cistovs-10002692.jpg);
+    background-color: rgb(168, 151, 151);
 }
 
 .logo-ish{
-    color: rgb(125, 125, 231);
+    color: #17181c;
     font-family: lato;
-    text-transform: uppercase;
     margin-left:25px;
-    margin-top: 15px;
-    font-size: 25px;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.icon{
+    background-image: transparent;
 }
 
 .container{
     display: grid;
-    grid-template-columns: 40% 40%;
-    margin-top: 50px;
-    align-items: center;
-    justify-content: center;
-    grid-gap: none;
-    margin-left: 7rem;
+    grid-template-columns: 1fr 1fr;
+    margin: 1.5rem auto;
+    width: 650px;
+    min-width: 70%;
+    background-color: #17181c;
+    padding: 1.5rem;
 }
 
 .container1{
-    height: 530px;
-    background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(pexels-marcus-aurelius-4064696.jpg);  
+    border-radius: 0.5rem;
+    background-image: url(images/pexels-jack-sparrow-4045931.jpg);  
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
-}
-
-.p1{
-    color: whitesmoke;
-    font-size: 15px;
-    text-transform: uppercase;
-    margin-top: 90%;
-    margin-left: 20px;
-    font-family: lato;
-    word-spacing: 0.2em;
-    width: 70%;
 }
 
 .login-form{
-    height: 530px;
-    width: 370px;
+    height: 500px;
     display: flex;
     flex-direction: column;
-    background-color: black;
-    box-shadow: 0px 0px 10px black;
     align-items: center;
     color: whitesmoke;
     padding: 60px;
