@@ -21,11 +21,11 @@ body{
 }
 
 .logo-ish{
-    color: #17181c;
+    color: rgb(216, 214, 214);
     font-family: lato;
-    margin-left:25px;
-    margin-top: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .icon{
@@ -33,9 +33,11 @@ body{
 }
 
 .container{
+    border-radius: 0.5rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 1.5rem auto;
+    margin-top: 3rem;
     width: 650px;
     min-width: 70%;
     background-color: #17181c;
@@ -67,7 +69,7 @@ body{
 
 .h4{
     font-weight: 100;
-    margin-top: 45px;
+    margin-top: 2rem;
 }
 
 .h5{
@@ -77,30 +79,29 @@ body{
     margin-top: 10px;
 }
 
-h6{
-    margin-top:20px;
-    font-weight: 10;
+#h5{
+    margin-top: 2rem;
+    text-decoration: none;
+    padding: 0.5rem;
+    border: 2px solid white;
 }
- 
-h7{
-    margin-top: 20px;
-}
-.google{
-    color: rgb(53, 53, 149);
+
+#h5:hover{
+    background-color: rgb(4, 4, 53);
 }
 
 .secondH5{
-    margin-top: 15px;
-    color: red;
-    font-weight: lighter;
+    margin-top: 5px;
+    color:red;
+    font-weight: 100;
     text-transform: lowercase;
     font-size: small;
 }
 
 .thirdH5{
-    margin-top: 10px;
+    margin-top: 5px;
+    font-weight: 100;
     color: red;
-    font-weight: lighter;
     text-transform: lowercase;
     font-size: small;
 }
@@ -132,7 +133,7 @@ input{
 
 a{ 
     text-decoration: none;
-    color: whitesmoke;
+    color: rgb(216, 214, 214);
 }
 
 a:hover{

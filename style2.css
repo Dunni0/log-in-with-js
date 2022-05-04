@@ -19,7 +19,7 @@
 }
 
 body{
-    background-image: url(images/pexels-andrea-piacquadio-927022.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(images/pexels-andrea-piacquadio-927022.jpg);
     font-family: latoRegular;
     background-position: center;
     background-repeat: no-repeat;
@@ -28,7 +28,7 @@ body{
 }
 
 .logo-ish{
-    color: #17181c;
+    color: rgb(216, 214, 214);
     font-family: lato;
     margin-top: 15px;
     margin-left: 18px;

@@ -10,6 +10,7 @@ var users=[
   "password" : "123"
 }
 ]
+
 var log_in = ("click", function(){
     users.forEach((element,index) =>{
    var user= element.username;
@@ -22,8 +23,6 @@ var log_in = ("click", function(){
     error.style.display="none";
     document.querySelector(".h4").style.display="none";
     document.querySelector(".h5").style.display="none";
-    document.querySelector(".h6").style.display="none";
-    document.querySelector(".h7").style.display="none";
    }
    else if(usernameDom.value == "" || passwordDom.value == ""){
     var error2= document.querySelector(".error2");
@@ -36,8 +35,6 @@ var log_in = ("click", function(){
         var error=document.querySelector(".error");
         error.textContent="password or username not correct";
         error.classList.add("secondH5");
-        a.style.color="red"
-        a2.style.color="red"
     }
     });
 });
@@ -51,4 +48,5 @@ var clk = function(){
             }
         })
     }
+    
     clk();
