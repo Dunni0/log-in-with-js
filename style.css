@@ -84,6 +84,7 @@ body{
     text-decoration: none;
     padding: 0.5rem;
     border: 2px solid white;
+    cursor: pointer;
 }
 
 #h5:hover{
@@ -124,7 +125,7 @@ input{
     background: transparent;
     border-radius: 20px;
     border: 1px solid rgb(53, 53, 149);
-    cursor: default;
+    cursor: pointer;
 }
 
 .btn:hover{

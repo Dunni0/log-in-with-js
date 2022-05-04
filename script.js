@@ -23,6 +23,7 @@ var log_in = ("click", function(){
     error.style.display="none";
     document.querySelector(".h4").style.display="none";
     document.querySelector(".h5").style.display="none";
+    document.querySelector("#h5").style.display="none";
    }
    else if(usernameDom.value == "" || passwordDom.value == ""){
     var error2= document.querySelector(".error2");
