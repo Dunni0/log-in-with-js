@@ -75,7 +75,7 @@ body{
 .h5{
     font-size: small;
     font-weight: 100;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     margin-top: 10px;
 }
 
@@ -83,8 +83,12 @@ body{
     margin-top: 2rem;
     text-decoration: none;
     padding: 0.5rem;
-    border: 2px solid white;
+    border: 1px solid white;
     cursor: pointer;
+}
+
+#h5 a{
+    color: white;
 }
 
 #h5:hover{
