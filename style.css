@@ -17,11 +17,11 @@
 body{
     background-position: center;
     font-family: latoReg;
-    background-color: rgb(168, 151, 151);
+    background-color: rgb(4, 4, 53);
 }
 
 .logo-ish{
-    color: rgb(216, 214, 214);
+    color:  rgb(4, 4, 53);
     font-family: lato;
     font-size: 1.2rem;
     display: flex;
@@ -33,14 +33,12 @@ body{
 }
 
 .container{
-    border-radius: 0.5rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 1.5rem auto;
-    margin-top: 3rem;
+    margin: 4.8rem auto;
     width: 650px;
     min-width: 70%;
-    background-color: #17181c;
+    background-color: #caf0f8;
     padding: 1.5rem;
 }
 
@@ -57,7 +55,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: whitesmoke;
+    color: #17181c;
     padding: 60px;
 }
 
@@ -68,44 +66,28 @@ body{
 }
 
 .h4{
-    font-weight: 100;
-    margin-top: 2rem;
+    font-weight: bold;
+    margin-top: 2.5rem;
+    font-size: small;
 }
 
 .h5{
-    font-size: small;
-    font-weight: 100;
-    margin-top: 10px;
-}
-
-#h5{
-    margin-top: 2rem;
-    text-decoration: none;
-    padding: 0.5rem;
-    border: 1px solid white;
-    cursor: pointer;
-}
-
-#h5 a{
-    color: white;
-}
-
-#h5:hover{
-    background-color: rgb(4, 4, 53);
+    font-size: 0.7rem;
+    margin-top: 5px;
 }
 
 .secondH5{
     margin-top: 5px;
-    color:red;
-    font-weight: 100;
+    color:rgb(187, 10, 10);
+    font-weight: bold;
     text-transform: lowercase;
     font-size: small;
 }
 
 .thirdH5{
     margin-top: 5px;
-    font-weight: 100;
-    color: red;
+    font-weight: bold;
+    color: rgb(187, 10, 10);
     text-transform: lowercase;
     font-size: small;
 }
@@ -113,13 +95,15 @@ body{
 input{ 
     width: 200px;
     margin-top: 30px;
-    background-color: rgb(4, 4, 53);
+    background-color: #90e0ef;
     padding: 10px;
     font-size: 13px;
     border-radius: 20px;
-    cursor: default ;
+    cursor: pointer;
     color: white;
     border: none;
+    color: #17181c;
+    font-weight: bold;
 }
 
 .btn{
@@ -127,19 +111,47 @@ input{
     margin-top: 50px;
     background: transparent;
     border-radius: 20px;
-    border: 1px solid rgb(53, 53, 149);
+    border: 2px solid #17181c;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .btn:hover{
-    background-color: rgb(53, 53, 149);
+    background-color: rgb(4, 4, 53);
+    color: #fff;
 }
 
-a{ 
+.link{ 
     text-decoration: none;
-    color: rgb(216, 214, 214);
+    color: #17181c;
 }
 
-a:hover{
-    color: rgb(53, 53, 149);
+.link:hover{
+    color: #0077b6;
+} 
+
+.signUp{
+    background-color: transparent;
+    margin-top: 3rem;
+    padding: 0.5rem;
+    border: 2px solid #17181c;
+    cursor: pointer;
+    font-weight: bold;
 }
+
+#signUp{
+    text-decoration: none;
+    color: #17181c;
+}
+
+.signUp:hover{
+    color: #fff;
+    background-color:  rgb(4, 4, 53);
+}
+
+#iconG{
+    color: blue;
+    padding-right: 0.5rem;
+    font-size: 1rem;
+}
+

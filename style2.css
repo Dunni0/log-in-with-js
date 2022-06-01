@@ -3,11 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 @font-face {
     font-family: latoBold;
     src: url(fonts/Lato-Bold.ttf);
     font-weight: bolder;
 }
+
 @font-face {
     font-family: latoRegular;
     src: url(fonts/Lato-Regular.ttf);
@@ -19,37 +21,77 @@
 }
 
 body{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(images/pexels-andrea-piacquadio-927022.jpg);
-    font-family: latoRegular;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-   position: relative;
+    font-family: latoRegular;  
+    background-color: rgb(4, 4, 53);
+    position: relative;
 }
 
 .logo-ish{
-    color: rgb(216, 214, 214);
+    color: #caf0f8;
     font-family: lato;
-    margin-top: 15px;
-    margin-left: 18px;
     font-size: 25px;
+    margin: 0.5rem;
 }
 
-button{
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 45%;
-    background-color: transparent;
-    padding: 0.8rem;
-    border-radius: 3rem;
-    border: none;
-    box-shadow: 0 0 13px black;
+.grid{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(2, 310px);
+    margin-top: 2rem;
+}
+
+p{
+    color: #caf0f8;
     font-weight: bold;
+    margin-left: 0.6rem;
+    padding: 0.3rem;
+    text-transform: capitalize;
+}
+
+.gridImageBig, .gridImageSmall{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    border-radius: 0.5rem;
+    box-shadow:  0 0 6px black;
     cursor: pointer;
 }
 
-button:hover{
-    background-color: #17181c;
-    color: #fff;
+.gridImageBig{
+    height: 300px;
 }
+
+.gridImageSmall{
+   height: 250px;
+}
+
+#imageOne{
+   background-image: url(images/pexels-fauxels-3184287.jpg);
+}
+#imageOne:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/pexels-fauxels-3184287.jpg);
+}
+
+#imageTwo{
+    background-image: url(images/pexels-djordje-petrovic-2102416.jpg);
+}
+#imageTwo:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/pexels-djordje-petrovic-2102416.jpg);
+}
+
+#imageThree{
+    background-image: url(images/pexels-andrea-piacquadio-926390.jpg);
+}
+#imageThree:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/pexels-andrea-piacquadio-926390.jpg);
+}
+
+#imageFour{
+    background-image:  url(images/pexels-daria-shevtsova-1560932.jpg);
+}
+#imageFour:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/pexels-daria-shevtsova-1560932.jpg);
+}
+
