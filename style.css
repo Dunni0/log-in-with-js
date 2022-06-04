@@ -65,17 +65,26 @@ body{
     font-family: lato;
 }
 
-.h4{
+h4{
     font-weight: bold;
     margin-top: 2.5rem;
     font-size: small;
 }
 
-.h5{
+h5{
     font-size: 0.7rem;
     margin-top: 5px;
 }
 
+
+.link{ 
+    text-decoration: none;
+    color: #17181c;
+}
+
+.link:hover{
+    color: #0077b6;
+} 
 .secondH5{
     margin-top: 5px;
     color:rgb(187, 10, 10);
@@ -121,14 +130,7 @@ input{
     color: #fff;
 }
 
-.link{ 
-    text-decoration: none;
-    color: #17181c;
-}
 
-.link:hover{
-    color: #0077b6;
-} 
 
 .signUp{
     background-color: transparent;
